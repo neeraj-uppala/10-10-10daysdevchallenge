@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+body{
+    background-color: #D7E2F0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    margin-top:40px;
+}
+.card{
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height:450px;
+    width:340px;
+    padding:20px;
+    border-radius: 30px;
+    
+}
+.card img{
+    width:300px;
+    height:300px;
+    border-radius: 20px;
+
+}
+figcaption{
+    margin-left: 10px;
+    margin-block-start: 20px;
+    font-weight:700;
+    font-size:25px;
+}
+.money{
+    display: flex;
+    margin-left:10px;
+    margin-top:10px;
+    justify-content: space-between;
+
+
+}
+h2{
+    font-size: 20px;
+    font-weight: 700;
+    color:#116fdf;
+    
+}
+.cart img{
+    height:40px;
+    width:40px;
+    mix-blend-mode: multiply;
+    margin-left: 190px;
+    
+}
+.cart{
+margin: bottom 80px;
+}
