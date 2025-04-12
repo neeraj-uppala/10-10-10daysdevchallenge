@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    pafding:0;
+    box-sizing:border-box;
+  }
+  body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#f7f7f7;
+    font-family:Arial, sans-serif;
+    height:100vh;
+  }
+  .container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color:#ffffff;
+    width:480px;
+    padding-block:25px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    border-radius:10px;
+  }
+  
+  ul{
+    list-style-type:none;
+    padding-right:34px;
+  }
+  h1{
+    font-size:30px;
+  }
+  
+  .add-btn{
+    background-color:#4a90e2;
+    border:none;
+    color:white;
+    width:40px;
+    height:25px;
+    font-size:12px;
+    border-top-right-radius:2px;
+    border-bottom-right-radius:2px;
+  }
+  form{
+    display:flex;
+    justify-content:center;
+    width:400px;
+    height:27px;
+    border:1px solid #eee;
+    padding-inline-start:7px;
+    margin-block:15px;
+    border-radius:3px;
+  }
+  ::placeholder{
+    font-size:11px;
+  }
+  form input{
+    flex-grow:1;
+    border:0;
+  }
+  .all{
+     background-color:#4a90e2;
+     border:none;
+    color:white;
+    padding: 4px;
+    font-size:5px;
+    border-radius:3px;
+    width:30px;
+    height:23px;
+  }
+  .active{
+    background-color:#f1f1f1;
+    border:1px solid #ddd;
+    padding: 4px;
+    font-size:8px;
+    border-radius:3px;
+    width:50px;
+    height:23px;
+  }
+  .btn1 button{
+    margin-inline:3px;
+    margin-block-end:15px;
+  }
+  .myfield{
+    border:1px solid #eee;
+    margin-block-end:5px;
+  }
+  
+  li{
+    display:flex;
+    justify-content:space-between;
+    width:400px;
+  }
+  .myfield ,.content{
+    padding:15px;
+  }
+  .strike{
+    color:#999;
+    text-decoration:line-through;
+  }
+  .delete{
+    background-color:#ff6b6b;
+    border:1px solid #ff6b6b;
+    color:#fff;
+    padding:4px;
+    border-radius:3px;
+    font-size:11px;
+  }
+  
+  label{
+    font-size:15px;
+  }
+  span{
+    margin-inline-start:10px;
+  }

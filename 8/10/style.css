@@ -1,0 +1,120 @@
+*{
+  margin:0;
+  paddng:0;
+  box-sizing:border-box;
+}
+body{
+  display:flex;
+  justify-content:center;
+  background-color:#f9f9f9;
+  line-height:1.6;
+  margin-block-end:30px;
+  font-family:'Helvetica Neue', Arial, sans-serif;
+  color:#333;
+}
+.container{
+  background-color:white;
+  padding:15px;
+  margin-inline-end:65px;
+  margin-inline-start:65px;
+  margin-block-start:30px;
+  position: relative;
+  padding:50px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+.container::before{
+ content:'';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    width: 5px;
+    height: 100%;
+    background-color: #3498db;
+}
+header{
+  border-bottom:2px solid #f0f0f0;
+  color:initial;
+}
+ .detail {
+   display:inline-block;
+  background-color:rgba(52, 152, 219, 0.1);
+   font-size:17px;
+   padding:10px;
+   border-radius:20px;
+   margin-block:20px;
+ }
+h1{
+  letter-spacing:2px;
+  font-size:33px;
+  margin-block-end:7px;
+}
+h3{
+  color:#3498db;
+  font-size:18px;
+  margin-inline-start:25px;
+}
+h4{
+  color:#3498db;
+  font-size:18px;
+}
+.content{
+  position:relative;
+  background-color:#f9f9f9;
+}
+.start{
+  
+}
+.start{
+  display:inline-block;
+  margin
+}
+h2{
+  position:relative;
+  letter-spacing:2px;
+  font-size:19px;
+  margin-block:30px;
+}
+h2::after{
+  content: '';
+  position: absolute;
+  background-color: #3498db;
+  width:100%;
+  height:3px;
+  left:0px;
+  top:35px;
+}
+.content{
+  padding-block:15px;
+}
+.second{
+  margin-block-start:20px;
+}
+.date{
+  background-color: rgba(52, 152, 219, 0.08);
+    color: #7f8c8d;
+    padding:2px 5px;
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    border-radius: 15px;
+   font-size:13px;
+  margin-block:10px;
+  margin-inline:7px;
+  
+}
+.line{
+  color:#555;
+  border-left:2px solid #e74c3c;
+  padding:8px;
+  margin-inline-start:25px;
+}
+.skills button{
+  background-color: rgba(52,152,219,0.1);
+  border:none;
+  padding:10px 15px;
+  border-radius:20px;
+  border-left:2px solid #3498db;
+  margin-inline:3px;
+}
